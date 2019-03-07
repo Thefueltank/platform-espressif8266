@@ -21,6 +21,8 @@ class Espressif8266Platform(PlatformBase):
         framework = variables.get("pioframework")
         if "buildfs" in targets:
             self.packages['tool-mkspiffs']['optional'] = False
+        if not framework or "simba" in framework:
+            self.packages['toolchain-xtensa']['version'] = "<2"            
         return PlatformBase.configure_default_packages(
             self, variables, targets)
 
