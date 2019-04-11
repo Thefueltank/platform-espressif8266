@@ -227,6 +227,7 @@ if env.subst("$PIOFRAMEWORK") in ("arduino", "simba"):
                     "-eo", "$SOURCES",
                     "-bs", ".irom0.text",
                     "-bs", ".text",
+                    "-bs", ".text1",                    
                     "-bs", ".data",
                     "-bs", ".rodata",
                     "-bc", "-ec"
@@ -248,6 +249,7 @@ else:
                     "-bf", "${__get_board_f_flash(__env__)}",
                     "-bz", "${__get_flash_size(__env__)}",
                     "-bs", ".text",
+                    "-bs", ".text1",                    
                     "-bs", ".data",
                     "-bs", ".rodata",
                     "-bc", "-ec",
