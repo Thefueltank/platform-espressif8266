@@ -67,10 +67,9 @@
       "type": "uploader",
       "version": "<2"
     },
-    "tool-espotapy": {
+    "tool-esptoolpy": {
       "type": "uploader",
-      "optional": true,
-      "version": "~1.1.0"
+      "version": "~1.20600.0"
     },
     "tool-mkspiffs": {
       "type": "uploader",
