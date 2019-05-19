@@ -46,7 +46,7 @@
     "framework-arduinoespressif8266": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/Jason2866/Arduino.git#stage"
+      "version": "https://github.com/Jason2866/Arduino.git#bufix_deadlock_not_responsive_server"
     },
     "framework-esp8266-rtos-sdk": {
       "type": "framework",
