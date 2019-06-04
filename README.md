@@ -28,7 +28,7 @@ platform = https://github.com/platformio/platform-espressif8266.git
 ...
 ```
 
-## Tasmota version pre 2.5.0
+## Tasmota version dev 2.6.x
 
 ```
 [common]
