@@ -14,7 +14,7 @@
   },
   "version": "2.3.0-alpha.1",
   "packageRepositories": [
-    "https://github.com/Jason2866/Arduino/blob/new_stage/package/package_esp8266com_index.template.json",
+    "http://192.168.2.20/data/manifest.json",
     "https://dl.bintray.com/platformio/dl-packages/manifest.json",
     "http://dl.platformio.org/packages/manifest.json",
     "https://raw.githubusercontent.com/eerimoq/simba/master/make/platformio/manifest.json",
