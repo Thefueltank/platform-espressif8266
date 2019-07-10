@@ -14,7 +14,6 @@
   },
   "version": "2.3.0-alpha.1",
   "packageRepositories": [
-    "http://192.168.2.20/data/manifest.json",
     "https://dl.bintray.com/platformio/dl-packages/manifest.json",
     "http://dl.platformio.org/packages/manifest.json",
     "https://raw.githubusercontent.com/eerimoq/simba/master/make/platformio/manifest.json",
@@ -42,7 +41,7 @@
   "packages": {
     "toolchain-xtensa": {
       "type": "toolchain",
-      "version": "2.5.0-4-88f2f5d4"
+      "version": "<3"
     },
     "framework-arduinoespressif8266": {
       "type": "framework",
@@ -75,7 +74,7 @@
     "tool-mkspiffs": {
       "type": "uploader",
       "optional": true,
-      "version": "2.5.0-4-88f2f5d4"
+      "version": "~1.2"
     }
   }
 }
