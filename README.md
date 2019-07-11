@@ -28,11 +28,11 @@ platform = https://github.com/platformio/platform-espressif8266.git
 ...
 ```
 
-## Tasmota version dev 2.6.x
+## Tasmota version pre 2.6.x
 
 ```
 [common]
-platform = https://github.com/Jason2866/platform-espressif8266.git
+platform = https://github.com/Jason2866/platform-espressif8266.git#Tasmota
 ...
 ```
 
