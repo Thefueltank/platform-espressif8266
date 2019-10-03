@@ -47,7 +47,7 @@
     "framework-arduinoespressif8266": {
       "type": "framework",
       "optional": true,
-      "version": "https://github.com/Jason2866/Arduino.git#NewGCC"
+      "version": "https://github.com/Jason2866/Arduino.git#i2cfix"
     },
     "framework-esp8266-rtos-sdk": {
       "type": "framework",
